@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import tinify from "tinify";
 
 // Set your Tinify API key
-tinify.key = "wt4xf0WkymJRRG480BfTcVsvHCDpbpVS";
+tinify.key = process.env.Tinify_API_key!;
 
 export async function POST(request: NextRequest) {
   try {

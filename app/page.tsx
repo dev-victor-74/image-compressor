@@ -141,7 +141,7 @@ export default function LandingPage() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Link href="/compress">
+            <Link href="/compress-images">
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-lg px-8 py-4 shadow-lg hover:shadow-xl transition-all duration-200"
@@ -560,7 +560,7 @@ export default function LandingPage() {
               <ul className="space-y-2 text-gray-400">
                 <li>
                   <Link
-                    href="/compress"
+                    href="/compress-images"
                     className="hover:text-white transition-colors"
                   >
                     Image Compressor
@@ -568,7 +568,7 @@ export default function LandingPage() {
                 </li>
                 <li>
                   <Link
-                    href="/resize"
+                    href="/resize-imgaes"
                     className="hover:text-white transition-colors"
                   >
                     Image Resizer
@@ -576,7 +576,7 @@ export default function LandingPage() {
                 </li>
                 <li>
                   <Link
-                    href="/batch"
+                    href="/batch-compress-images"
                     className="hover:text-white transition-colors"
                   >
                     Batch Processing
