@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { slugs } from "@/lib/slug";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://image-compressor-eight-chi.vercel.app/"; // Replace with your actual domain
+  const baseUrl = "https://image-compressor-eight-chi.vercel.app"; // Replace with your actual domain
 
   // Static pages
   const staticPages = [
